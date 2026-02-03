@@ -23,10 +23,6 @@ body {
   flex-direction: column;
 }
 
-/* ============================= */
-/* DASHBOARD STATS CARDS */
-/* ============================= */
-
 .dashboard-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -68,9 +64,7 @@ body {
 .card.completed { border-left-color: #10b981; }
 .card.pending { border-left-color: #f59e0b; }
 
-/* ============================= */
-/* TOOLBAR - FORM + SEARCH + FILTERS */
-/* ============================= */
+
 
 .toolbar {
   display: flex;
@@ -168,8 +162,6 @@ form button:active {
   border-color: #667eea;
   box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
 }
-
-/* Filters */
 .filters {
   background: white;
   padding: 1rem;
