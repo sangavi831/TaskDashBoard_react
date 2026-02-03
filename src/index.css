@@ -73,7 +73,7 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Add Task Form */
+
 form {
   display: flex;
   gap: 1rem;
@@ -140,7 +140,6 @@ form button:active {
   transform: translateY(0);
 }
 
-/* Search Bar */
 .search-bar {
   background: white;
   padding: 1rem;
